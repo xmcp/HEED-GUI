@@ -7,7 +7,7 @@ High Efficiency Elective Dominator (with GUI)
 
 1. 选择使用构建好的版本或者从源码运行
      - 如果要从源码运行，请确认 Python 版本 ≥ 3.6，然后 `pip install -r requirements.txt`，已在 Windows 10 和 Ubuntu 20.04（GNOME 桌面环境）上测试可用
-     - 如果要运行构建好的版本，只需要 [从 releases 里进行一个下载](https://github.com/xmcp/HEED-GUI/releases)，但是注意这样将**无法支持识别验证码和推送通知**功能（其实源码版也不支持，但是留了相应接口允许你配置，参见后面 “高级功能”）
+     - 如果要运行构建好的版本，只需要一个 64 位的 Windows，然后 [从 releases 里进行一个下载](https://github.com/xmcp/HEED-GUI/releases)，注意这样将**无法支持识别验证码和推送通知**功能（其实源码版也不支持，但是留了相应接口允许你配置，参见后面 “高级功能”）
 2. 运行 `main.pyw`，输入学号和密码
    - 如果你有双学位，请在学号后面加 `@bzx`（表示主修）或者 `@bfx`（表示辅双），例如 `1900012345@bfx` 
 3. 你将看到一个主窗口（用于操作）和一个日志窗口（用于查看工作状态）
