@@ -260,7 +260,10 @@ class ElectiveBot:
             self.log('info','doing manual captcha')
         
             tl=tkinter.Toplevel(tk)
-            tl.wm_attributes('-toolwindow',True)
+            try:
+                tl.wm_attributes('-toolwindow',True)
+            except Exception: # toolwindow only works on Windows
+                pass
             tl.title(f'Captcha for {self.name}')
 
             captcha_var=tkinter.StringVar(tl)
