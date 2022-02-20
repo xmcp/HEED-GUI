@@ -5,10 +5,9 @@ High Efficiency Elective Dominator (with GUI)
 
 ## 基本使用流程
 
-1. 安装依赖
-     - 请确认 Python 版本 ≥ 3.6
-     - 然后 `pip install -r requirements.txt`
-     - 已在 Windows 10 和 Ubuntu 20.04（GNOME 桌面环境）上测试
+1. 选择使用构建好的版本或者从源码运行
+     - 如果要从源码运行，请确认 Python 版本 ≥ 3.6，然后 `pip install -r requirements.txt`，已在 Windows 10 和 Ubuntu 20.04（GNOME 桌面环境）上测试可用
+     - 如果要运行构建好的版本，只需要 [从 releases 里进行一个下载](https://github.com/xmcp/HEED-GUI/releases)，但是注意这样将**无法支持识别验证码和推送通知**功能（其实源码版也不支持，但是留了相应接口允许你配置，参见后面 “高级功能”）
 2. 运行 `main.pyw`，输入学号和密码
    - 如果你有双学位，请在学号后面加 `@bzx`（表示主修）或者 `@bfx`（表示辅双），例如 `1900012345@bfx` 
 3. 你将看到一个主窗口（用于操作）和一个日志窗口（用于查看工作状态）
@@ -22,7 +21,6 @@ High Efficiency Elective Dominator (with GUI)
    - 可以在主窗口的标题栏看到最近一次刷新的时间
    - 可以在日志窗口观察状态，或者等待推送通知（参阅后面 ”高级功能“ 的 “推送通知”）
    - 如果没有设置自动识别验证码，Session 过期后 Bot 会死掉，此时需要再点击 `Add Bot` 并重新输入验证码，请时刻关注日志窗口或者推送通知；如果设置了自动识别验证码，Session 过期后 Bot 会自动重启，无需人工操作
-
 8. 为防止误操作，**先取消选择 `Auto` 才能关闭程序**
 
 

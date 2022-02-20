@@ -4,7 +4,6 @@ import io
 import time
 import threading
 import tkinter
-import numpy as np
 from tkinter import ttk, messagebox
 from bs4 import BeautifulSoup
 from PIL import Image, ImageTk

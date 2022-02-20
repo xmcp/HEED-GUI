@@ -4,3 +4,5 @@ __pycache__/
 /wishlist.txt
 /venv/
 build/
+README.pdf
+/setup.py
