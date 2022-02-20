@@ -27,7 +27,7 @@ def tweak_intv_time(t):
     return int(t*.8+random.random()*t*.4)
 
 class Orchestrator:
-    INTERVAL_MS=3000
+    INTERVAL_MS=5000
 
     def __init__(self):
         self.name='Orchestrator'
